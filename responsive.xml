@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+    <meta content='width=device-width,initial-scale=1' name='viewport'/>
+    <meta charset='UTF-8'/>
+
+    <title><data:view.title/></title>
+    <link href='https://unpkg.com/swiper@8/swiper-bundle.min.css' rel='stylesheet'> </link>
+    <script src='https://unpkg.com/swiper@8/swiper-bundle.min.js'/>
+    
+    <b:skin><![CDATA[
+    /*css code*/
+    
+        * {
+            text-decoration: none;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            box-sizing: border-box;
+            color: #FFFFC7;
+        }
+        body{
+            max-width: 1200px;
+        }
+
+        .logo {
+            line-height: 4em;
+            margin: auto 2em;
+        }
+
+        nav {
+            width: 100%;
+            background-color: #1EAE98;
+            height: 4em;
+        }
+
+        nav ul {
+            float: right;
+            margin-right: 3em;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: auto 1em;
+            line-height: 4em;
+        }
+
+        a.active,
+        a:hover {
+            color: #A9F1DF;
+        }
+
+        .checkbtn {
+            float: right;
+            cursor: pointer;
+            line-height: 4em;
+            margin-right: 2em;
+            display: none;
+        }
+        @media (max-width:952px) {
+            .checkbtn {
+                font-size: small;
+            }
+        }
+
+        @media (max-width:857px) {
+            .checkbtn {
+                display: block;
+            }
+
+            ul {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background: #233E8B;
+                text-align: center;
+                top: 4em;
+                left: 0;
+                text-align: center;
+                transition: all .55s;
+                left: -100%;
+            }
+
+            nav ul li {
+                display: block;
+
+            }
+            #check:checked ~ ul  {
+                left: 0;
+
+            }
+        }
+
+
+
+    ]]></b:skin>
+
+
+
+</head>
+
+<body>
+  
+      <div class='container'>
+      <b:section class='header' id='header' name='Header'/>
+    </div>
+    
+
+
+    <nav>
+        <input id='check' style='display:none;' type='checkbox'/>
+        <label class='checkbtn' for='check'>🏛&#65039;</label>
+        <label class='logo'>Musitude&#39;s</label>
+        <ul>
+            <li><a class='desactive' href='#'>Accueil</a></li>
+            <li><a href='#'>Contact</a></li>
+            <li><a href='#'>Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div>
+            <h1>SMSPALMA vous permet d&#39;envoyer gratuitement des textos partout au Maroc</h1>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
