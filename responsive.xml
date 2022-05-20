@@ -16,24 +16,29 @@
     
         * {
             text-decoration: none;
+            font-size:1em;
             padding: 0;
             margin: 0;
             list-style: none;
             box-sizing: border-box;
-            color: #FFFFC7;
+            color: #11468F;
         }
         body{
             max-width: 1200px;
+            margin:auto;
+            display:block;
         }
 
         .logo {
-            line-height: 4em;
+            line-height: 2em;
             margin: auto 2em;
+            font-size:2em;
+            font-style:Bold;
         }
 
         nav {
             width: 100%;
-            background-color: #1EAE98;
+            background-color: #EEEEEE;
             height: 4em;
         }
 
@@ -50,15 +55,16 @@
 
         a.active,
         a:hover {
-            color: #A9F1DF;
+            color: #DA1212;
         }
 
         .checkbtn {
             float: right;
             cursor: pointer;
-            line-height: 4em;
+            line-height: 2em;
             margin-right: 2em;
             display: none;
+            font-size:3em;
         }
         @media (max-width:952px) {
             .checkbtn {
@@ -75,7 +81,8 @@
                 position: fixed;
                 width: 100%;
                 height: 100vh;
-                background: #233E8B;
+                background: #EEEEEE;
+                font-color:#DA1212;
                 text-align: center;
                 top: 4em;
                 left: 0;
@@ -94,8 +101,6 @@
             }
         }
 
-
-
     ]]></b:skin>
 
 
@@ -112,19 +117,21 @@
 
     <nav>
         <input id='check' style='display:none;' type='checkbox'/>
-        <label class='checkbtn' for='check'>🏛&#65039;</label>
-        <label class='logo'>Musitude&#39;s</label>
+        <label class='checkbtn' for='check'>⇋</label>
+        <label class='logo'>JEUNEASSUR</label>
         <ul>
-            <li><a class='desactive' href='#'>Accueil</a></li>
-            <li><a href='#'>Contact</a></li>
-            <li><a href='#'>Contact</a></li>
+            <li><a class='desactive' href='#'>Auto →</a></li>
+            <li><a href='#'>Moto →</a></li>
+            <li><a href='#'>Trottinette →</a></li>
         </ul>
     </nav>
 
-    <section>
-        <div>
-            <h1>SMSPALMA vous permet d&#39;envoyer gratuitement des textos partout au Maroc</h1>
+    <section style="margin:auto; padding:1em; width:100%;">
+        <div style="width:30%; float:right;padding:1em;">
+            <h1>Souscrir à une assurance auto n'a jamais été assui simple !</h1>
         </div>
+        <div style="width:70%; float:left; padding:1em;">
+        <h1>Souscrir à une assurance auto n'a jamais été assui simple !</h1></div>
     </section>
 
 
